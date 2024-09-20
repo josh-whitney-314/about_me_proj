@@ -1,0 +1,122 @@
+body {
+    background-image: url("back.jpg");
+    background-repeat: repeat;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, serif;
+    color: navy;
+    margin-left: 35px;
+    font-size: 30pt;
+}
+
+hr.solid {
+    border-top: 3px solid navy;
+}
+
+img {
+    float: right;
+    box-shadow: 8px 8px darkslategrey;
+}
+
+.body {
+    font-family: Helvetica;
+    font-size: 12pt;
+}
+
+h2 {
+    font-family: 'Segoe UI', Helvetica, sans-serif;
+    font-size: 16pt;
+    margin-top: 15pt;
+    margin-bottom: 3pt;
+}
+
+p {
+    margin-top: 7pt;
+    margin-bottom: 7pt;
+}
+
+p.poem {
+    text-align: center;
+}
+
+table {
+    background-color: dimgray;
+    padding: 10px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 800px;
+}
+
+th {
+    font-size: 14pt;
+    color: white;
+    background-color: black;
+    border-color: aliceblue;
+    width: 120px;
+    text-align: center;
+}
+
+td {
+    border: 2px;
+    border-style: solid;
+    font-size: 12pt;
+    vertical-align: top;
+    text-align: left;
+}
+
+td.travel {
+    background-color: burlywood;
+    border-color: rgb(170, 140, 100);
+}
+td.meal {
+    background-color: coral;
+    border-color: rgb(194, 93, 56);
+}
+td.astro {
+    background-color: darkcyan;
+    border-color: rgb(0, 99, 99);
+}
+td.institute {
+    background-color: thistle;
+    border-color: rgb(134, 111, 134);
+}
+td.comm {
+    background-color: cornflowerblue;
+    border-color: rgb(45, 74, 128);
+}
+td.web {
+    background-color: aquamarine;
+    border-color: rgb(62, 153, 123);
+}
+td.engl {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+td.math {
+    background-color: darkorchid;
+    border-color: rgb(85, 23, 116);
+}
+td.work {
+    background-color: crimson;
+    border-color: rgb(134, 9, 34);
+}
+td.empty {
+    background-color: dimgray;
+    border-color: dimgray;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+}
